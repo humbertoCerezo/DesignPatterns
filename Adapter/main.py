@@ -15,3 +15,4 @@ if __name__ == '__main__':
     csv_handler = CsvDataHandler()
     csv_file_path = 'Archivos/archivocsv.csv'
     csv_adapter = CsvToJsonAdapter(csv_handler)
+    load_and_display_data(csv_adapter, csv_file_path)
